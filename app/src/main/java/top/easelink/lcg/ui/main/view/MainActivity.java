@@ -57,6 +57,7 @@ import top.easelink.lcg.ui.main.articles.view.ArticlesFragment;
 import top.easelink.lcg.ui.main.articles.view.FavoriteArticlesFragment;
 import top.easelink.lcg.ui.main.articles.view.ForumArticlesFragment;
 import top.easelink.lcg.ui.main.forumnav.view.ForumNavigationFragment;
+import top.easelink.lcg.ui.main.forumnav.view.ForumNavigationV2Fragment;
 import top.easelink.lcg.ui.main.me.view.MeFragment;
 import top.easelink.lcg.ui.main.model.NewMessageEvent;
 import top.easelink.lcg.ui.main.model.NotificationInfo;
@@ -215,8 +216,10 @@ public class MainActivity
         setupDrawerNavMenu();
         setupBottomNavMenu();
 
-        getViewDataBinding().mainViewPager.setAdapter(new MainViewPagerAdapter(
-                getSupportFragmentManager(), MainActivity.this));
+        getViewDataBinding().mainViewPager.setAdapter(
+                new MainViewPagerAdapter(
+                        getSupportFragmentManager(),
+                        MainActivity.this));
         mTabLayout.setupWithViewPager(getViewDataBinding().mainViewPager);
     }
 
@@ -349,7 +352,7 @@ public class MainActivity
                 showFragment(FavoriteArticlesFragment.newInstance());
                 break;
             case R.id.action_forum_navigation:
-                showFragment(ForumNavigationFragment.newInstance());
+                showFragment(ForumNavigationV2Fragment.newInstance());
                 break;
             case R.id.action_about_me:
                 showFragment(MeFragment.newInstance());
