@@ -94,7 +94,6 @@ class ConversationListAdapter(
                 username.text = conversation.username
                 conversation_list_container.setOnClickListener {
                     WebViewActivity.startWebViewWith(SERVER_BASE_URL + conversation.replyUrl, context)
-//                    context.startActivity(Intent(context, ConversationDetailActivity::class.java))
                 }
             }
         }

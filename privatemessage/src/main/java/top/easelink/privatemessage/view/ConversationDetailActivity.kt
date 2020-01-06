@@ -1,9 +1,9 @@
-package top.easelink.lcg.ui.main.message.view
+package top.easelink.privatemessage.view
 
 import android.os.Bundle
 import android.os.PersistableBundle
 import top.easelink.framework.topbase.TopActivity
-import top.easelink.lcg.R
+import top.easelink.privatemessage.R
 
 class ConversationDetailActivity: TopActivity() {
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
