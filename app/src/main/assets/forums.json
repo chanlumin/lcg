@@ -1,0 +1,42 @@
+[
+  {
+    "header": "『精品软件区』",
+    "isHeader": true
+  },
+  {
+    "isHeader": false,
+    "info": {
+      "content": "forum.php?mod=forumdisplay&fid=16&filter=typeid&typeid=232",
+      "group": "『精品软件区』",
+      "title": "Android"
+    }
+  },
+  {
+    "isHeader": false,
+    "info": {
+      "content": "forum.php?mod=forumdisplay&fid=16&filter=typeid&typeid=231",
+      "group": "『精品软件区』",
+      "title": "Windows"
+    }
+  },
+  {
+    "isHeader": false,
+    "info": {
+      "content": "forum.php?mod=forumdisplay&fid=16&filter=typeid&typeid=234",
+      "group": "『精品软件区』",
+      "title": "Mac"
+    }
+  },
+  {
+    "header": "热卖",
+    "isHeader": true
+  },
+  {
+    "isHeader": false,
+    "info": {
+      "content": "爆款热卖，月销超过 999 件",
+      "group": "热卖",
+      "title": "烤全翅"
+    }
+  }
+]
